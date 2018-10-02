@@ -26,9 +26,9 @@ public class Shopping {
         //Variables
         int numUSBStorage,numKeyboard,numMice;
         double totalCostUSB,totalCostKeyboard,totalCostMice,total;
-        final double costUSB = 19.99;
-        final double costKeyboard= 49.99;
-        final double costMice = 25.99;
+        final double COSTUSB = 19.99;
+        final double COSTKEYBOARD= 49.99;
+        final double COSTMICE = 25.99;
         
         System.out.println("Enter the number of USB storage devices you would like to buy.");
         numUSBStorage = keyedInput.nextInt();
@@ -39,9 +39,9 @@ public class Shopping {
         System.out.println("Enter the number of Keyboards you would like to buy.");
         numKeyboard = keyedInput.nextInt();
         
-        totalCostUSB = numUSBStorage * costUSB;
-        totalCostKeyboard = numKeyboard * costKeyboard;
-        totalCostMice = numMice * costMice;
+        totalCostUSB = numUSBStorage * COSTUSB;
+        totalCostKeyboard = numKeyboard * COSTKEYBOARD;
+        totalCostMice = numMice * COSTMICE;
         total = totalCostUSB + totalCostKeyboard + totalCostMice;
         
         
