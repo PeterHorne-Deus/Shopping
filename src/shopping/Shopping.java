@@ -26,9 +26,9 @@ public class Shopping {
         //Variables
         int numUSBStorage,numKeyboard,numMice;
         double totalCostUSB,totalCostKeyboard,totalCostMice,total;
-        final double COSTUSB = 19.99;
-        final double COSTKEYBOARD= 49.99;
-        final double COSTMICE = 25.99;
+        final double COST_USB = 19.99;
+        final double COST_KEYBOARD= 49.99;
+        final double COST_MICE = 25.99;
         
         System.out.println("Enter the number of USB storage devices you would like to buy.");
         numUSBStorage = keyedInput.nextInt();
@@ -39,16 +39,16 @@ public class Shopping {
         System.out.println("Enter the number of Keyboards you would like to buy.");
         numKeyboard = keyedInput.nextInt();
         
-        totalCostUSB = numUSBStorage * COSTUSB;
-        totalCostKeyboard = numKeyboard * COSTKEYBOARD;
-        totalCostMice = numMice * COSTMICE;
+        totalCostUSB = numUSBStorage * COST_USB;
+        totalCostKeyboard = numKeyboard * COST_KEYBOARD;
+        totalCostMice = numMice * COST_MICE;
         total = totalCostUSB + totalCostKeyboard + totalCostMice;
         
         
         System.out.println("************************************");
-        System.out.println("The cost of the USB storage Devices: " + x.format(COSTUSB) + "\n");
-        System.out.println("The cost of the Mice: " + x.format(COSTMICE) + "\n");
-        System.out.println("The cost of the Keyboards: " + x.format(COSTKEYBOARD) + "\n \n");
+        System.out.println("The cost of the USB storage Devices: " + x.format(COST_USB) + "\n");
+        System.out.println("The cost of the Mice: " + x.format(COST_MICE) + "\n");
+        System.out.println("The cost of the Keyboards: " + x.format(COST_KEYBOARD) + "\n \n");
         System.out.println("The total cost: " + x.format(total));
         
         keyedInput.close();
