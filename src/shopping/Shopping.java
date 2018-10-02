@@ -46,9 +46,9 @@ public class Shopping {
         
         
         System.out.println("************************************");
-        System.out.println("The cost of the USB storage Devices: " + x.format(costUSB) + "\n");
-        System.out.println("The cost of the Mice: " + x.format(costMice) + "\n");
-        System.out.println("The cost of the Keyboards: " + x.format(costKeyboard) + "\n \n");
+        System.out.println("The cost of the USB storage Devices: " + x.format(COSTUSB) + "\n");
+        System.out.println("The cost of the Mice: " + x.format(COSTMICE) + "\n");
+        System.out.println("The cost of the Keyboards: " + x.format(COSTKEYBOARD) + "\n \n");
         System.out.println("The total cost: " + x.format(total));
         
         keyedInput.close();
